@@ -1,0 +1,34 @@
+
+<div id="main">
+ 
+    <div id="header">
+        <button type="button" id="logout-button" ng-click ="logout()">LOG OUT</button>
+    </div>
+  
+    <div id=Area>
+            
+       <div id="leftbox"><a ng-repeat="x in arr track by $index"><button type="button" class="names" id={{x}} ng-click ="person($event)">{{x}}</button></a></div>
+        <div id="rightbox">
+            <div id="messagebox">
+                <div id="message" ng-repeat = "chat in chatlist">
+                      <div id="chat"  ng-if = 'current_userid==chat.userid'>
+  
+                              <div id="content"> {{chat.userName}}:{{chat.message}}</div>
+                              <span id="date">{{chat.dateTime | date: 'medium'}}</span> 
+            
+                        </div>
+                        <div id="chat1" ng-if = 'current_userid!=chat.userid'>
+            
+                                <div id="content"> {{chat.userName}}:{{chat.message}}</div>
+                                <span id="date">{{chat.dateTime | date: 'medium'}}</span> 
+                          </div>
+                </div>
+                </div>
+            
+            <div id="sendbox">
+                <input id="txt" type="text" placeholder="type here" ng-model="message">
+            </div>
+                  <button type="button" id="send" ng-click = "add()" >SEND</button>
+        </div>
+    </div>
+  </div>

@@ -1,0 +1,38 @@
+<div id="backimage">
+
+<div id="a1">
+    <form id="component" method='POST' ng-app="" ng-controller="registerCtrl">
+        <!-- <img src="../assets/images/reg1.jpg" alt="Registration image" width =100px> -->
+    <div id="txt">Create Chat App Account</div>
+
+    <div id="content"><b>User name</b></div>
+    <input id="box" type="text" placeholder="Enter user name" ng-model = "userName" name="uname">
+    <span id="check" ng-show="checkUserName()"> name required.</span>
+
+    <div id="content"><b>Email</b></div>
+    <input id="box" type="text" placeholder="Enter email address" ng-model = "userEmail" name="mail">
+    <span id="check" ng-show="checkEmail()"> eamil required</span>
+
+    
+    <div id ="content"><b>Mobile number</b></div>
+    <input id="box" type="text" placeholder="Enter Mobile Number" ng-model = "mobile" name="number" >
+    <span id="check" ng-show="checkmobileNumber()"> mobile number is required</span>
+
+
+    <div id="content"><b>Password</b></div>
+    <input id="box" type="text" placeholder="Enter password" ng-model = "userPassword" name="passwd">
+    <span id="check" ng-show="checkPassword()"> password is required</span>
+
+    <div id="content"><b>Confirm Password</b></div>
+    <input id="box"  type="text" placeholder="confirm password" ng-model = "confirmPassword" name="psw">
+
+    <div id="content" ><b>Gender</b></div>
+    <input id="radbtn" type="radio" name="gender" ng-model = "gender" value="male"> male<br>
+    <input id="radbtn" type="radio" name="gender" ng-model = "gender" value="female"> female<br>
+    <input id="radbtn" type="radio" name="gender" ng-model = "gender" value="other"> other<br>
+    <span id="check" ng-show="checkgender()"> gender is mandatory</span>
+
+    <button id="regbtn" type="button" id="regbutton" ng-click="Registration()">Registration</button>
+    </div>
+    </form>
+</div>

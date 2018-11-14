@@ -1,0 +1,58 @@
+#backimage {
+    background-attachment: fixed;
+    background-image: url("../images/reg.jpg");
+    height: 100%;
+}
+#txt {
+    color: rgb(165, 42, 42);
+    width: 100px;
+}
+/* #component {
+    margin-left: 500px;
+    height: 500px;
+    width: 500px;
+    margin-right: 100px
+    
+} */
+#content {
+    color: rgb(115, 97, 104);
+    margin-left: 150px;
+    font-size: 30px;
+    font-family: initial;
+}
+#component {
+    border: 5px solid #8f1c63;
+    /* margin-right: 540px; */
+    margin-left: 418px;
+    height: 710px;
+    margin-top : 40px;
+    width: 510px;
+    background: rgba(13, 27, 26, 0.77);
+}
+#a1 {
+    margin-top:  -41px
+}
+#box {
+    margin-left: 152px;
+    height: 43px;
+    width: 212px;
+}
+#radbtn{
+        margin-left: 151px;
+}
+#regbtn {
+    margin-left: 151px;
+    height: 46px;
+    width: 218px;
+    font-size: medium;
+    font-style: normal;
+}
+.input {
+    width: 600px;
+    padding: 20 40px;
+}
+#check {
+    margin-left: 172px;
+    color: brown;
+    font-size: larger;
+}

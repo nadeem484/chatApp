@@ -1,0 +1,30 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "Chatapp",
+  "main": "registerApi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nadeem4100/ChatApp.git"
+  },
+  "author": "Nadeem4100",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Irfan2700/ChatApp/issues"
+  },
+  "homepage": "https://github.com/Nadeem700/ChatApp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.2.16",
+    "nodemailer": "^4.6.8",
+    "socket.io": "^2.1.1",
+    "winston": "^3.1.0"
+  }
+}

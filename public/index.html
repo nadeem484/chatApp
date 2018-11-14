@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+   
+<!-- define angular app -->
+<html ng-app="start">
+ 
+<head>
+    <link rel="stylesheet"  href="./assets/css/login.css" />
+    <link rel="stylesheet"  href="./assets//css/registration.css" />
+    <link rel="stylesheet" href="./assets/css/dashboard.css"/>
+    <link rel="stylesheet" href="./assets/css/person.css"/>
+   
+</head>
+
+<body>
+   <!-- SPELLS -->
+   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js"></script>
+   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular-route.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-socket-io/0.7.0/socket.min.js"></script>
+   <script src="app.js"></script>
+   <script src="controller/loginController.js"></script>
+   <script src="controller/registrationController.js"></script>
+   <script src="controller/dashboardController.js"></script>
+   <script src="controller/personalMessgController.js"></script>
+    <div ng-view></div>
+</body>
+</html>

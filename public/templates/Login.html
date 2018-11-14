@@ -1,0 +1,26 @@
+
+<div id="backimg">
+<div id="text">Login Form</div>
+<div class="container">
+    <form class="kec" method='POST' ng-scotchApp="" ng-controller="loginCtrl">
+
+        <img class="imagecontainer" src="../assets/images/img_avatar2 (1).png" alt="imageicon" height="100"><div>
+            <div id="block">
+                <div id="user"><b>Username<span>
+                    <input type="text" placeholder="Enter username" name="uname" ng-model = "userEmail"></span></b>
+                </div>
+                <div id="pwd"><b>Password<span>
+                    <input type="password" placeholder="Enter password" name="psw" ng-model = "userPassword" ></span></b>
+                </div>
+
+                <button class="lgnbtn" type="button"  ng-click="login()">Login</button>
+                <!-- <input type="checkbox" checked="checked" name="remember" > Remember me -->
+                <button  type="button" class="cancelbtn">Cancel</button>
+                <br>
+                <button type="button" class="regbutton"><a href="#!/Registration">Registration</a></button>
+                <br>
+                <a class="a1" href="#">forgot password?</a>
+            </div>
+    </form>
+</div>
+</div>
